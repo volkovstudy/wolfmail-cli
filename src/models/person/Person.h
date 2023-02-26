@@ -10,6 +10,8 @@ class Person {
 private:
     string _fullName;
     string _email;
+public:
+    Person(const string& fullName, const string& email);
 };
 
 
