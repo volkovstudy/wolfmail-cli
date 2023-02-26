@@ -12,6 +12,9 @@ private:
     string _email;
 public:
     Person(const string& fullName, const string& email);
+
+    const string& getFullName() const;
+    const string& getEmail() const;
 };
 
 
