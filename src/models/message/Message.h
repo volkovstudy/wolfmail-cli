@@ -15,6 +15,10 @@ private:
     Person _receiver;
 public:
     Message(const string& data, const Person& sender, const Person& receiver);
+
+    const string& getData() const;
+    const Person& getSender() const;
+    const Person& getReceiver() const;
 };
 
 
