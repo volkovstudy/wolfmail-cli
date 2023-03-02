@@ -8,4 +8,4 @@ project(${PROJECT_NAME})
 include_directories(src)
 
 file(GLOB_RECURSE main-sources "src/*.cpp")
-add_executable(wolfmail src/main.cpp ${main-sources})
+add_executable(wolfmail-cli src/main.cpp ${main-sources})
