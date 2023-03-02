@@ -13,6 +13,8 @@ private:
     string _data;
     Person _sender;
     Person _receiver;
+public:
+    Message(const string& data, const Person& sender, const Person& receiver);
 };
 
 
