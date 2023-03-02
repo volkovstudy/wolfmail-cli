@@ -4,11 +4,15 @@
 
 #include <string>
 
+#include "models/person/Person.h"
+
 using namespace std;
 
 class Message {
 private:
     string _data;
+    Person _sender;
+    Person _receiver;
 };
 
 
